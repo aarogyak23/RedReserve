@@ -6,6 +6,7 @@ import Home from "./Pages/Home/home";
 import DonateBlood from "./Pages/DonateBlood/DonateBlood";
 import ErrorBoundary from "./ErrorBoundary";
 import RequestBlood from "./Pages/RequestBlood/RequestBlood";
+import Aboutus from "./Pages/AboutUs/aboutus";
 
 function Hello() {
   return (
@@ -17,6 +18,7 @@ function Hello() {
           <Route path="/home" element={<Home />} />
           <Route path="/donateblood" element={<DonateBlood />} />
           <Route path="/requestblood" element={<RequestBlood />} />
+          <Route path="/aboutus" element={<Aboutus />} />
         </Routes>
       </BrowserRouter>
     </ErrorBoundary>

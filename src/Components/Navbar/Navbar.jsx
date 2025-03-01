@@ -7,6 +7,7 @@ export const Navbar = () => {
   return (
     <header className="header">
       <img
+        onClick={() => navigate("/home")}
         className="logoImage"
         src="/src/assets/Screenshot 2025-02-18 at 11.16.18.png"
         alt="Logo"
@@ -15,7 +16,7 @@ export const Navbar = () => {
         <a onClick={() => navigate("/home")}>Home</a>
         <a onClick={() => navigate("/donateblood")}>Donate Blood</a>
         <a onClick={() => navigate("/requestblood")}>Request Blood</a>
-        <a href="/home">Contact Us</a>
+        <a onClick={() => navigate("/aboutus")}>About Us</a>
         <a href="/home">Campaigns</a>
         <a href="/home">Search</a>
         <span className="navButton active" onClick={() => navigate("/login")}>

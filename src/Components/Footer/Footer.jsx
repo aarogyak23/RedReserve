@@ -17,7 +17,6 @@ const Footer = () => {
           <p>Red Reserve - Your trusted blood donation network.</p>
         </div>
 
-        {/* Column 2: Quick Links */}
         <div className="footer-column">
           <h4>Quick Links</h4>
           <nav className="footer-nav">
@@ -28,7 +27,6 @@ const Footer = () => {
           </nav>
         </div>
 
-        {/* Column 3: Social Media */}
         <div className="footer-column">
           <h4>Follow Us</h4>
           <div className="footer-social">
@@ -57,7 +55,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright Section */}
       <div className="footer-copyright">
         &copy; {new Date().getFullYear()} Red Reserve. All Rights Reserved.
       </div>
